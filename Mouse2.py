@@ -44,7 +44,7 @@ while True:
             y3=np.interp(y1,(frameR,hCam-frameR),(0,hSrc))
             clocX=plocX+(x3-plocX)/smoothening
             clocY=plocY+(y3-plocY)/smoothening
-            autopy.mouse.move(wSrc-x3,hSrc-y3)
+            autopy.mouse.move(wSrc-clocX,clocY)
 
             cv2.circle(img,(x1,y1),15,(255,0,255),cv2.FILLED)
             plocX,plocY = clocX,clocY
