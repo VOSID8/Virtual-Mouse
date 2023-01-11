@@ -1,4 +1,4 @@
-# Virtaul-Mouse
+# Virtual-Mouse
 
 Run Mouse2, works as a virtual mouse
 
